@@ -1,0 +1,14 @@
+protoBuilders:
+  - filter:
+      excludePath:
+        - google/*
+    unwrapBuilders: true
+    useDslMarkers: true
+extendableMessages:
+  - filter:
+      excludePath:
+        - google/*
+mpProtobufMessages:
+  - filter:
+      excludePath:
+        - google/*
